@@ -23,8 +23,8 @@ const runPlopInTerminal = (uri: vscode.Uri) => {
 	const terminal = getTerminal();
 
 	const getConfig = vscode.workspace.getConfiguration().get;
-	const plopCommand = getConfig<string>("plop-vscode.plopCommand") || "plopit";
-	const pathArgName = getConfig<string>("plop-vscode.pathArgName") || "path";
+	const plopCommand = getConfig<string>("plop-path.plopCommand") || "plopit";
+	const pathArgName = getConfig<string>("plop-path.pathArgName") || "path";
 
 	let path = uri.fsPath;
 
