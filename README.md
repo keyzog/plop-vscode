@@ -6,7 +6,7 @@ Run Plop commands from the context menu with path or folder selection. This exte
 
 ## Features
 
-![](https://i.imgur.com/31AVeN6.gif)
+![demo](https://i.imgur.com/31AVeN6.gif)
 
 -  Quickly run Plop commands from the context menu.
    ![](https://i.imgur.com/HDZwo5H.jpeg)
