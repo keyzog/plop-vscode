@@ -47,7 +47,7 @@ const runPlopInTerminal = (uri: vscode.Uri) => {
 
 export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand(
-		"plop-vscode.openTerminalWithPath",
+		"plop-path.openTerminalWithPath",
 		(uri: vscode.Uri) => {
 			try {
 				runPlopInTerminal(uri);
