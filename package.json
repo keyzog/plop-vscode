@@ -3,7 +3,7 @@
 	"displayName": "Plop Path",
 	"description": "Run plop commands from context menu with path or folder selection",
 	"publisher": "keyzog",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.90.0"
 	},
